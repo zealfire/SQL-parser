@@ -1,0 +1,16 @@
+create table abcd (name varchar);
+select * from abcd;
+select distinct * from abcd;
+select name from abcd where val=efg;
+select * from abcd where val=efg group by name having val>30 order by val desc;
+insert into abcd values name, val;
+delete from abcd;
+delete from abcd where val>=10;
+insert into abcd (name,city,gender) values zeal, Lucknow, male;
+insert into abcd values noida,sid;
+insert into abcd (name,city,gender,interest) values zeal, Lucknow, male;
+delete from abcd;
+insert into abcd (name,city,gender) values zeal, Lucknow, male;
+select * from abcd;
+delete from abcd;
+delete from abcd;
